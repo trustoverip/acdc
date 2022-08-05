@@ -1,1 +1,860 @@
-Wed Aug  3 13:50:05 CEST 2022
+<html>
+<head>
+    <title>KERI / CESR / ACDC Glossary</title>
+    <style>
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #02005f;
+    color: #A4E8E6;
+    padding: 36px;
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    background-repeat: none;
+    text-align: right;
+    background-image: url(https://keri.one/wp-content/uploads/2020/09/keri-logo-1.png);
+    background-repeat: no-repeat;
+}
+main {
+    padding: 16px 24px;
+    color: #444;
+}
+
+@media screen and (min-width: 640px) {
+  main {
+      padding: 24px 64px;
+  }
+}
+
+dt {
+    margin-top: 1.4em;
+    color: #a3c74e;
+    font-size: 125%;
+    font-family: Verdana, sans-serif;
+}
+
+dt.letter {
+    text-align: center;
+    font-weight: bold;
+    color: #999;
+    border-bottom: solid 1px #ddd;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2.2em;
+    color: #666;
+}
+
+nav {
+    padding: 4px 16px;
+    text-align: center;
+    background-color: #ddd;
+    color: #888;
+}
+
+dd {
+    margin-left: 2em;
+}
+
+dt > span.tag {
+  float: right;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 2px 4px;
+  margin-right: 4px;
+  font-size: 60%;
+  font-family: Verdana;
+  color: #666;
+}
+
+dd>p:first-child {
+  margin-top: 0.2em;
+}
+
+a {
+    color: #3061a8;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: solid 1px #3061a8;
+}
+
+a:active {
+    background-color: #eee;
+}
+
+a:visited {
+    color: #6161a8;
+}
+
+nav > a, nav > a:visited {
+    color: black;
+}
+
+p.meta {
+    font-size: 80%;
+    color: #bbb;
+    text-align: right;
+    margin-top: -0.9em;
+}
+
+._slf {
+    float: left;
+    padding-right: 4px;
+    padding-top: 4px;
+    margin-left: -20px;
+    cursor: pointer;
+    width:16px;
+    height:16px;
+    display: none;
+}
+
+dt:not(.letter):hover > ._slf {
+    display: inline;
+}
+
+._xl {
+    padding-right: 4px;
+    display: none;
+    cursor: pointer;
+    width:16px;
+    height:16px;
+}
+
+dt:not(.letter):hover > ._xl {
+  display: inline;
+}
+  </style>
+    <script>
+var getAbsoluteUrl = (function() {
+  var a;
+  return function(url) {
+      if (!a)
+        a = document.createElement('a');
+      a.href = url;
+      return a.href;
+  };
+})();
+
+function copyUrl(url) {
+  x = getAbsoluteUrl(url);
+  navigator.clipboard.writeText(x);
+}
+
+function goto(url) {
+  window.location = url;
+}
+  </script>
+</head>
+<body>
+
+<svg style="display:none">
+    <symbol id="_slf" viewBox="0 0 16 16">
+        <path style="fill:#aaa" fill-rule="evenodd"
+              d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/>
+    </symbol>
+    <symbol id="_xl" viewBox="0 -256 1850 1850">
+        <g transform="matrix(1,0,0,-1,30.372881,1426.9492)">
+            <path style="fill:#aaa"
+                  d="M 1408,608 V 288 Q 1408,169 1323.5,84.5 1239,0 1120,0 H 288 Q 169,0 84.5,84.5 0,169 0,288 v 832 Q 0,1239 84.5,1323.5 169,1408 288,1408 h 704 q 14,0 23,-9 9,-9 9,-23 v -64 q 0,-14 -9,-23 -9,-9 -23,-9 H 288 q -66,0 -113,-47 -47,-47 -47,-113 V 288 q 0,-66 47,-113 47,-47 113,-47 h 832 q 66,0 113,47 47,47 47,113 v 320 q 0,14 9,23 9,9 23,9 h 64 q 14,0 23,-9 9,-9 9,-23 z m 384,864 V 960 q 0,-26 -19,-45 -19,-19 -45,-19 -26,0 -45,19 L 1507,1091 855,439 q -10,-10 -23,-10 -13,0 -23,10 L 695,553 q -10,10 -10,23 0,13 10,23 l 652,652 -176,176 q -19,19 -19,45 0,26 19,45 19,19 45,19 h 512 q 26,0 45,-19 19,-19 19,-45 z" />
+        </g>
+    </symbol>
+</svg>
+
+<header>KERI / CESR / ACDC Glossary</header>
+<nav>[ <a href="#A">A</a> <a href="#B">B</a> <a href="#C">C</a> <a href="#D">D</a> <a href="#E">E</a> <a href="#F">F</a> G <a href="#H">H</a> <a href="#I">I</a> <a href="#J">J</a> <a href="#K">K</a> <a href="#L">L</a> <a href="#M">M</a> <a href="#N">N</a> <a href="#O">O</a> <a href="#P">P</a> <a href="#Q">Q</a> <a href="#R">R</a> <a href="#S">S</a> <a href="#T">T</a> U <a href="#V">V</a> <a href="#W">W</a> X Y Z ]</nav>
+
+<main>
+    <dl id="glossary_content">
+<dt id="A" class="letter">A</td>
+<dt id="agency"><svg class="_slf" onclick="copyUrl('#agency')"><use href="#_slf"/></svg>agency <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//agency')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Agents can be people, edge computers and the functionality within <a href="https://github.com/trustoverip/acdc/wiki/_new#digital-identity-wallet">wallets</a>. The service an agent offers is agency.</p>
+<p class="meta">version 1, commit b79a614, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="agent"><svg class="_slf" onclick="copyUrl('#agent')"><use href="#_slf"/></svg>agent <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//agent')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A representative for an identity. MAY require the use of a wallet. MAY support transfer.</p>
+<p class="meta">version 1, commit 1b7a3bc, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="ambient-verifiability"><svg class="_slf" onclick="copyUrl('#ambient-verifiability')"><use href="#_slf"/></svg>ambient verifiability <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//ambient-verifiability')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Verifiable by anyone, anywhere, at anytime. E.g. Ambient Duplicity Detection describes the possibility of detecting duplicity by anyone, anywhere, anytime.</p>
+<p class="meta">version 1, commit 5dc5d5d, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="append-only-event-logs"><svg class="_slf" onclick="copyUrl('#append-only-event-logs')"><use href="#_slf"/></svg>append only event logs <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//append-only-event-logs')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>More on <a href="https://en.wikipedia.org/wiki/Append-only">Wikipedia</a></p>
+<p class="meta">version 1, commit 942a81f, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="authentic-chained-data-container-acdc"><svg class="_slf" onclick="copyUrl('#authentic-chained-data-container-acdc')"><use href="#_slf"/></svg>authentic chained data container <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//authentic-chained-data-container-acdc')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>In brief, an ACDC or <a href="authentic-data-container-(ADC)">ADC</a> proves digital data consistency and authenticity in one go. An ACDC cryptographically secures commitment to data contained, and its identifiers are self-addressing, which means they point to themselves and are also contained ìn the data.</p>
+<p><img src="https://hackmd.io/_uploads/HJDwDAUsq.png" alt="" /></p>
+<p class="meta">version 3, commit 5f02821, created 2022-07-09, last modified 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="authentic-data-container-adc"><svg class="_slf" onclick="copyUrl('#authentic-data-container-adc')"><use href="#_slf"/></svg>authentic data container <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//authentic-data-container-adc')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A mechanism for conveying data that allows the <a href="#authenticity" title="The quality of having an objectively verifiable origin; contrast veracity.">authenticity</a> of its content to be proved.</p>
+<p class="meta">version 3, commit 42eef12, created 2021-08-02, last modified 2022-07-07, contributors Henk van Cann - Daniel Hardman</p>
+</dd>
+
+<dt id="authentic-provenance-chain-apc"><svg class="_slf" onclick="copyUrl('#authentic-provenance-chain-apc')"><use href="#_slf"/></svg>authentic provenance chain <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//authentic-provenance-chain-apc')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Interlinked presentations of evidence that allow data to be tracked back to its origin in an objectively verifiable way.</p>
+<p class="meta">version 2, commit 1f348bd, created 2021-08-02, last modified 2021-08-02, contributors Daniel Hardman</p>
+</dd>
+
+<dt id="authenticity"><svg class="_slf" onclick="copyUrl('#authenticity')"><use href="#_slf"/></svg>authenticity <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//authenticity')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The quality of having an objectively verifiable origin; contrast <a href="#veracity" title="The quality of being true; contrast authenticity.">veracity</a>. When a newspaper publishes a story about an event, every faithful reproduction of that story may be <em>authentic</em> — but that does not mean the story was <em>true</em> (has <em>veracity</em>).</p>
+<p class="meta">version 3, commit 5904690, created 2021-08-02, last modified 2021-08-02, contributors Daniel Hardman</p>
+</dd>
+
+<dt id="autonomic-computing-systems"><svg class="_slf" onclick="copyUrl('#autonomic-computing-systems')"><use href="#_slf"/></svg>autonomic computing systems <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//autonomic-computing-systems')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Self managing computing systems using algorithmic governance, from the 90's way way way before DAOs. KERI creator Sma Smith worked at funded Navy research in the 90's on autonomic surviveable systems as in &quot;self-healing&quot; systems: &quot;We called them autonomic way back then&quot;.</p>
+<p class="meta">version 1, commit 204bef1, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="autonomic-identifier-aid"><svg class="_slf" onclick="copyUrl('#autonomic-identifier-aid')"><use href="#_slf"/></svg>autonomic identifier <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//autonomic-identifier-aid')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>An identifier that is self-certifying and self-sovereign.</p>
+<p class="meta">version 1, commit ac4aee1, created 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="autonomic-identity-system"><svg class="_slf" onclick="copyUrl('#autonomic-identity-system')"><use href="#_slf"/></svg>autonomic identity system <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//autonomic-identity-system')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>There's nobody that can intervene with the establishment of the authenticity of a control operation because you can verify all the way back to the root-of-trust.</p>
+<p><img src="https://github.com/WebOfTrust/keri/blob/main/images/ais.png" alt="" /></p>
+<p class="meta">version 1, commit fe93253, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="autonomic-namespace-an"><svg class="_slf" onclick="copyUrl('#autonomic-namespace-an')"><use href="#_slf"/></svg>autonomic namespace <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//autonomic-namespace-an')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A namespace that is self-certifying and hence self-administrating. ANs are therefore portable = truly self sovereign.
+See basic explanation of <a href="https://github.com/trustoverip/acdc/wiki/_new#namespace">Namespace</a>.</p>
+<p class="meta">version 1, commit c9cc1ad, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="B" class="letter">B</td>
+<dt id="backer"><svg class="_slf" onclick="copyUrl('#backer')"><use href="#_slf"/></svg>backer <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//backer')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The terms Backer and <a href="https://github.com/trustoverip/acdc/wiki/_new#witness">Witness</a> are closely related in KERI. Backers include both regular KERI witnesses and ledger-registered backers.</p>
+<p><img src="https://github.com/WebOfTrust/keri/blob/main/images/backer-witness.png" alt="" /></p>
+<p class="meta">version 2, commit 80b75d0, created 2022-07-30, last modified 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="best-available-data-acceptance-mechanism-bada"><svg class="_slf" onclick="copyUrl('#best-available-data-acceptance-mechanism-bada')"><use href="#_slf"/></svg>best available data acceptance mechanism <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//best-available-data-acceptance-mechanism-bada')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The BADA security model provides a degree of replay attack protection. The attributate originator (issuer, author, source) is provided by an attached signature couple or quadruple. A single reply could have multiple originators. When used as an authorization the reply attributes may include the identifier of the authorizer and the logic for processing the associated route may require a matching attachment.
+BADA is part of KERI's <a href="https://hackmd.io/Qsrfj7Y-TIGl5ESvrxWGxw">Zero Trust Computing Architecture for Data Management</a>: How to support Secure Async Data Flow Routing in KERI enabled Applications.</p>
+<p class="meta">version 1, commit 8024746, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="binding"><svg class="_slf" onclick="copyUrl('#binding')"><use href="#_slf"/></svg>binding <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//binding')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>In short, the technique of connecting two data elements together. In the context of KERI it is the association of data or an identifier with another identifier or a subject (a person, organization or machine), thereby lifting the privacy of the subject through that connection, i.e. binding.</p>
+<p class="meta">version 1, commit 4aae0db, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="byzantine-agreement"><svg class="_slf" onclick="copyUrl('#byzantine-agreement')"><use href="#_slf"/></svg>byzantine agreement <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//byzantine-agreement')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p><a href="https://blockonomi.com/stellar-consensus-protocol/">More</a> about the Stellar consensus protocol</p>
+<pre><code>&quot;What if PBFT and Stellar had a baby?
+that was missing liveness and total ordering 
+but had safety and was completely decentralized, portable, and permission-less? 
+It would be named KERI.&quot;
+SamMSmith
+</code></pre>
+<p class="meta">version 1, commit c0676ce, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="byzantine-fault-tolerance-bft"><svg class="_slf" onclick="copyUrl('#byzantine-fault-tolerance-bft')"><use href="#_slf"/></svg>byzantine fault tolerance <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//byzantine-fault-tolerance-bft')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><ul>
+<li><a href="https://en.wikipedia.org/wiki/Byzantine_fault">Byzantine Fault</a></li>
+<li><a href="https://en.bitcoinwiki.org/wiki/PBFT">pBFT</a> : An article that explains practical BFT. </li>
+<li><a href="https://blockonomi.com/practical-byzantine-fault-tolerance/">Here</a>'s a complete beginners guide.</li>
+</ul>
+<p class="meta">version 2, commit 8999f2f, created 2022-07-30, last modified 2022-08-03, contributors Henk van Cann</p>
+</dd>
+
+<dt id="C" class="letter">C</td>
+<dt id="certificate-transparency-ct"><svg class="_slf" onclick="copyUrl('#certificate-transparency-ct')"><use href="#_slf"/></svg>certificate transparency <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//certificate-transparency-ct')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>More on <a href="https://certificate.transparency.dev/">certificate.transparency.dev</a> and <a href="https://en.wikipedia.org/wiki/Certificate_Transparency">Wikipedia</a>.</p>
+<p class="meta">version 1, commit cc63df2, created 2022-07-31, contributors Henk van Cann</p>
+</dd>
+
+<dt id="chain-of-custody-coc"><svg class="_slf" onclick="copyUrl('#chain-of-custody-coc')"><use href="#_slf"/></svg>chain of custody <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//chain-of-custody-coc')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>From Wikipedia (<a href="https://en.wikipedia.org/wiki/Chain_of_custody">Source</a>):
+Chain of custody (CoC), in legal contexts, is the chronological documentation or <a href="https://en.wiktionary.org/wiki/paper_trail">paper trail</a> that records the sequence of custody, control, transfer, analysis, and disposition of materials, including physical or electronic <a href="https://en.wikipedia.org/wiki/Evidence">evidence</a>. Of particular importance in criminal cases, the concept is also applied in civil litigation and more broadly in drug testing of athletes and in <a href="https://en.wikipedia.org/wiki/Supply_chain_management">supply chain management</a>, e.g. to improve the <a href="https://en.wikipedia.org/wiki/Traceability">traceability</a> of food products, or to provide assurances that wood products originate from <a href="https://en.wikipedia.org/wiki/Sustainable_forest_management">sustainably managed forests</a>.</p>
+<p class="meta">version 1, commit 58bdec2, created 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="claim"><svg class="_slf" onclick="copyUrl('#claim')"><use href="#_slf"/></svg>claim <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//claim')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>An assertion of the truth of something, typically one which is disputed or in doubt. A set of claims might convey personally identifying information: name, address, date of birth and citizenship, for example. (<a href="https://www.identityblog.com/?p=352">Source</a>).</p>
+<p class="meta">version 1, commit b01dd69, created 2022-07-31, contributors Henk van Cann</p>
+</dd>
+
+<dt id="composable-event-streaming-representation-cesr"><svg class="_slf" onclick="copyUrl('#composable-event-streaming-representation-cesr')"><use href="#_slf"/></svg>composable event streaming representation <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//composable-event-streaming-representation-cesr')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>This compact encoding scheme fully supports both textual and binary streaming applications of attached crypto material of all types. This approach includes composability in both the textual and binary streaming domains. The primitives may be the minimum possible but still composable size. Making composability a guaranteed property allows future extensible support of new compositions of streaming formats based on pre-existing core primitives and compositions of core primitives. This enables optimized stream processing in both the binary and text domains.</p>
+<p class="meta">version 1, commit 5bdf588, created 2022-07-07, contributors Henk van Cann</p>
+</dd>
+
+<dt id="consensus-mechanism"><svg class="_slf" onclick="copyUrl('#consensus-mechanism')"><use href="#_slf"/></svg>consensus mechanism <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//consensus-mechanism')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>More on <a href="https://en.wikipedia.org/wiki/Consensus_(computer_science)">wikipedia</a> or in this <a href="https://cryptoresearch.report/crypto-research/consensus-mechanisms/">2018 report</a> from the cryptocurrency field.</p>
+<p class="meta">version 1, commit e038e60, created 2022-07-31, contributors Henk van Cann</p>
+</dd>
+
+<dt id="content-addressable-hash"><svg class="_slf" onclick="copyUrl('#content-addressable-hash')"><use href="#_slf"/></svg>content addressable hash <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//content-addressable-hash')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>In the IPFS ecosystem, this hash is called Content Identifier, or CID.</p>
+<p class="meta">version 1, commit 89a8fa4, created 2022-07-31, contributors Henk van Cann</p>
+</dd>
+
+<dt id="control-authority"><svg class="_slf" onclick="copyUrl('#control-authority')"><use href="#_slf"/></svg>control authority <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//control-authority')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>How these events are ordered and their dependence on previous operations is important. The record of these operations is the source of truth for the identity system.</p>
+<p class="meta">version 1, commit ced5764, created 2022-07-31, contributors Henk van Cann</p>
+</dd>
+
+<dt id="controller"><svg class="_slf" onclick="copyUrl('#controller')"><use href="#_slf"/></svg>controller <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//controller')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The entity that has the ability to make changes to an <em>identity</em>, <em>cryptocurrency</em> or <em>verifiable credential</em>. </p>
+<p>The controller of an <code>autonomous identifier</code> is the entity (person, organization, or autonomous software) that has the capability, as defined by derivation, to make changes to an <code>Event Log</code>. This capability is typically asserted by the control of a single inception key. In DIDs this is typically asserted by the control of set of cryptographic keys used by software acting on behalf of the controller, though it may also be asserted via other mechanisms. In KERI an AID has one single controller. Note that a DID may have more than one controller, and the DID <code>subject</code> can be the DID controller, or one of them.</p>
+<p class="meta">version 1, commit 0bb31a6, created 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="correlation"><svg class="_slf" onclick="copyUrl('#correlation')"><use href="#_slf"/></svg>correlation <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//correlation')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>When a public key is reused, it conveys that some common entity is controlling both identifiers. Tracking correlation allows for software to warn when some new information might be about to be exposed, for example: &quot;Looks like you are about to send cryptocurrency, from an account you frequently use to a new account you just created.&quot;</p>
+<p class="meta">version 1, commit 8376268, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="credential"><svg class="_slf" onclick="copyUrl('#credential')"><use href="#_slf"/></svg>credential <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//credential')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Evidence of authority, status, rights, entitlement to privileges, or the like.<br />
+(<a href="https://github.com/trustoverip/tswg-acdc-specification/blob/main/draft-ssmith-acdc.md#introduction">source</a>)</p>
+<p class="meta">version 2, commit 611106d, created 2022-07-09, last modified 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="crypto-libraries"><svg class="_slf" onclick="copyUrl('#crypto-libraries')"><use href="#_slf"/></svg>crypto libraries <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//crypto-libraries')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Criteria to chose one or the other:</p>
+<ul>
+<li>Open Source (most of them are)</li>
+<li>Compliant with standards</li>
+<li>Key operations include key generation algorithms, key exchange agreements and public key cryptography standards.</li>
+<li>Supported cryptographic hash functions</li>
+<li>Implementations of message authentication code (MAC) algorithms</li>
+<li>Implementations of block ciphers</li>
+<li>Hardware-assisted support</li>
+<li>Code size and code to comment ratio</li>
+<li>Composable derivation codes</li>
+</ul>
+<p>See a <a href="https://en.wikipedia.org/wiki/Comparison_of_cryptography_libraries">comparison here</a> at Wikipedia.</p>
+<p class="meta">version 1, commit 2c5f02a, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="cryptocurrency"><svg class="_slf" onclick="copyUrl('#cryptocurrency')"><use href="#_slf"/></svg>cryptocurrency <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//cryptocurrency')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>KERI doesn't need total global ordering, whereas cryptocurrencies do need this. As a consequence has been designed, without the need of a consensus-based distributed ledger (blockchain).</p>
+<p>KERI doesn't provide for a currency system, however a KERI-based system can be easily extended with a money - or token system.</p>
+<p>See also Non Fungible Tokens.</p>
+<p class="meta">version 1, commit 739c3c2, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="cryptographic-commitment-scheme"><svg class="_slf" onclick="copyUrl('#cryptographic-commitment-scheme')"><use href="#_slf"/></svg>cryptographic commitment scheme <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//cryptographic-commitment-scheme')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>is a cryptographic primitive that allows one to commit to a chosen value (or chosen statement) while keeping it hidden to others, with the ability to reveal the committed value later. </p>
+<p>Commitment schemes are designed so that a party cannot change the value or statement after they have committed to it: that is, commitment schemes are <em>binding</em>.<br />
+More on <a href="https://en.wikipedia.org/wiki/Commitment_scheme">wikipedia</a></p>
+<p class="meta">version 2, commit 9b995b8, created 2022-08-02, last modified 2022-08-03, contributors Henk van Cann</p>
+</dd>
+
+<dt id="cryptographic-strength"><svg class="_slf" onclick="copyUrl('#cryptographic-strength')"><use href="#_slf"/></svg>cryptographic strength <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//cryptographic-strength')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The term &quot;cryptographically strong&quot; is often used to describe an encryption algorithm, and implies, in comparison to some other algorithm (which is thus cryptographically weak), greater resistance to attack. But it can also be used to describe hashing and unique identifier and filename creation algorithms.<br />
+More on <a href="https://en.wikipedia.org/wiki/Strong_cryptography">Wikipedia</a></p>
+<p class="meta">version 1, commit 5bf88aa, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="D" class="letter">D</td>
+<dt id="decentralized-identity-did"><svg class="_slf" onclick="copyUrl('#decentralized-identity-did')"><use href="#_slf"/></svg>decentralized identity <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//decentralized-identity-did')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p><code>KERI</code>s definition of decentralization (centralization) is about <em>control</em> not <em>spatial distribution</em>. In our definition <em>decentralized</em> is not necessarily the same as <em>distributed</em>. By distributed we mean that activity happens at more than one site. Thus decentralization is about <em>control</em> and distribution is about <em>place</em>. To elaborate, when we refer to decentralized infrastructure we mean infrastructure under decentralized (centralized) control no matter its spatial distribution. Thus <em>decentralized infrastructure</em> is infrastructure sourced or controlled by more than one <code>entity</code>.</p>
+<p class="meta">version 1, commit 50bf637, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="decentralized-key-management-infrastructure-dkmi"><svg class="_slf" onclick="copyUrl('#decentralized-key-management-infrastructure-dkmi')"><use href="#_slf"/></svg>decentralized key management infrastructure <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//decentralized-key-management-infrastructure-dkmi')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>{TBW prio1}</p>
+<p class="meta">version 1, commit 72fe15b, created 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="derivation-code"><svg class="_slf" onclick="copyUrl('#derivation-code')"><use href="#_slf"/></svg>derivation code <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//derivation-code')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>All crypto material appears in <code>KERI</code> in a fully qualified representation. This includes a derivation code prepended to the crypto-material.
+<img src="https://github.com/WebOfTrust/keri/blob/main/images/derivation-code.png" alt="" /></p>
+<p class="meta">version 1, commit 934e9b7, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="digest"><svg class="_slf" onclick="copyUrl('#digest')"><use href="#_slf"/></svg>digest <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//digest')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>verifiable cryptographic commitment. It's a collision resistant hash of content.</p>
+<p>From Wikipedia (<a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">Source</a>):</p>
+<p>A <strong>digest</strong> is a cryptographic hash function (CHF) is a mathematical <a href="https://en.wikipedia.org/wiki/Algorithm">algorithm</a> that <a href="https://en.wikipedia.org/wiki/Map_(mathematics)">maps</a> data of an arbitrary size (often called the &quot;message&quot;) to a <a href="https://en.wikipedia.org/wiki/Bit_array">bit array</a> of a fixed size (the &quot;<a href="https://en.wikipedia.org/wiki/Hash_value">hash value</a>&quot;, &quot;hash&quot;, or &quot;message digest&quot;). It is a <a href="https://en.wikipedia.org/wiki/One-way_function">one-way function</a>, that is, a function for which it is practically infeasible to invert or reverse the computation.<a href="https://en.wikipedia.org/wiki/Message_digest#cite_note-MrThfd-1">[1]</a></p>
+<p class="meta">version 4, commit b7cb9f2, created 2022-07-09, last modified 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="digital-signature"><svg class="_slf" onclick="copyUrl('#digital-signature')"><use href="#_slf"/></svg>digital signature <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//digital-signature')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A <em>digital</em> signature is a mathematical scheme for verifying the authenticity of digital messages or documents. A valid digital signature, where the prerequisites are satisfied, gives a recipient very strong reason to believe that the message was created by a known sender (authentication), and that the message was not altered in transit (integrity).</p>
+<p class="meta">version 1, commit 8409808, created 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="directed-acyclic-graph-dag"><svg class="_slf" onclick="copyUrl('#directed-acyclic-graph-dag')"><use href="#_slf"/></svg>directed acyclic graph <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//directed-acyclic-graph-dag')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>From Wikipedia (<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">source</a>):</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Mathematics">mathematics</a>, particularly <a href="https://en.wikipedia.org/wiki/Graph_theory">graph theory</a>, and <a href="https://en.wikipedia.org/wiki/Computer_science">computer science</a>, a directed acyclic graph (DAG <a href="https://en.wikipedia.org/wiki/Help:IPA/English">/ˈdæɡ/</a> (<a href="https://upload.wikimedia.org/wikipedia/commons/5/5a/En-us-DAG.ogg">listen</a>)) is a <a href="https://en.wikipedia.org/wiki/Directed_graph">directed graph</a> with no <a href="https://en.wikipedia.org/wiki/Cycle_graph#Directed_cycle_graph">directed cycles</a>. That is, it consists of <a href="https://en.wikipedia.org/wiki/Vertex_(graph_theory)">vertices</a> and <a href="https://en.wikipedia.org/wiki/Edge_(graph_theory)">edges</a> (also called arcs), with each edge directed from one vertex to another.</p>
+<p><img src="https://hackmd.io/_uploads/rywIzRLo5.png" alt="A directed acyclic graph (DAG)" /></p>
+<p class="meta">version 3, commit 0ffc444, created 2022-07-09, last modified 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="distributed-hash-table-dht"><svg class="_slf" onclick="copyUrl('#distributed-hash-table-dht')"><use href="#_slf"/></svg>distributed hash table <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//distributed-hash-table-dht')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>It is a distributed system that provides a lookup service similar to a hash table: key-value pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key. The main advantage of a DHT is that nodes can be added or removed with minimum work around re-distributing keys. Keys are unique identifiers which map to particular values, which in turn can be anything from addresses, to documents, to arbitrary data.<br />
+(Source: <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">Wikipedia</a>)</p>
+<p class="meta">version 1, commit f0dabde, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="dual-text-binary-encoding-format"><svg class="_slf" onclick="copyUrl('#dual-text-binary-encoding-format')"><use href="#_slf"/></svg>dual text binary encoding format <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//dual-text-binary-encoding-format')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>(ietf-cesr-proof)</p>
+<p>{TBW prio2}</p>
+<p class="meta">version 2, commit fd60936, created 2022-07-31, last modified 2022-07-31, contributors Henk van Cann</p>
+</dd>
+
+<dt id="duplicitous-event-log-del"><svg class="_slf" onclick="copyUrl('#duplicitous-event-log-del')"><use href="#_slf"/></svg>duplicitous event log <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//duplicitous-event-log-del')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>This is a record of inconsistent event messages produced by a given controller or witness with respect to a given KERL. The duplicitous events are indexed to the corresponding event in a KERL. A duplicitous event is represented by a set of two or more provably mutually inconsistent event messages with respect to a KERL. Each juror keeps a duplicitous event log (DEL) for each controller and all designated witness with respect to a KERL. Any validator may confirm duplicity by examining a DEL.</p>
+<p class="meta">version 1, commit e37a917, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="E" class="letter">E</td>
+<dt id="electronic-signature"><svg class="_slf" onclick="copyUrl('#electronic-signature')"><use href="#_slf"/></svg>electronic signature <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//electronic-signature')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>An electronic signature, or e-signature, refers to data in electronic form, which is logically associated with other data in electronic form and which is used by the signatory to sign. This type of signature has the same legal standing as a handwritten signature as long as it adheres to the requirements of the specific regulation under which it was created (e.g., eIDAS in the European Union, NIST-DSS in the USA or ZertES in Switzerland).</p>
+<p class="meta">version 1, commit 4348e1a, created 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="end-verifiable"><svg class="_slf" onclick="copyUrl('#end-verifiable')"><use href="#_slf"/></svg>end verifiable <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//end-verifiable')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>When a log is <em>end verifiable</em>, it means that the log may be verified by any end user that receives a copy. No trust in intervening infrastructure is needed to verify the log and validate the content. </p>
+<p class="meta">version 1, commit 049c88c, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="entropy"><svg class="_slf" onclick="copyUrl('#entropy')"><use href="#_slf"/></svg>entropy <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//entropy')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p><a href="https://en.wikipedia.org/wiki/Entropy_(information_theory)">Entropy</a></p>
+<p>The term entropy is also used to describe the degree of unpredictability of a message. Entropy is then measured in bits. The degree or strength of randomness determines how difficult it would be for someone else to reproduce the same large random number. This is called <em>collision resistance</em>.</p>
+<p class="meta">version 1, commit fdf5e4a, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="establishment-event"><svg class="_slf" onclick="copyUrl('#establishment-event')"><use href="#_slf"/></svg>establishment event <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//establishment-event')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>An event that establishes control authority. What are the authoritative key-pairs in any point in time. For a trivial system this is one authoritative key pair and it never changes. However, if we need persistance in our identifier and we want to be able to for example overcome compromise of our keys, we need to be able to do something like rotate keys.</p>
+<p class="meta">version 1, commit f7b3f44, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="F" class="letter">F</td>
+<dt id="first-seen"><svg class="_slf" onclick="copyUrl('#first-seen')"><use href="#_slf"/></svg>first seen <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//first-seen')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>&quot;First seen&quot; in KERI is the first verified event, accepted in the KEL. It has no effect on the timing of what has arrived in escrow for example; in escrow there can be garbage. Every 'first seen' event is propagated world wide within micro-seconds to the watchers. Only in this microseconds windows that you could have a live key conprise attack. If that happens, this where you have to look after this duplicity-attack a bit more in depth to handle it safely. E.g. a valid key rotation.</p>
+<p class="meta">version 1, commit 24fa4bb, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="H" class="letter">H</td>
+<dt id="habery"><svg class="_slf" onclick="copyUrl('#habery')"><use href="#_slf"/></svg>habery <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//habery')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The only hit (2022) in a Google search pointing to a github site 'habery DOT github DOT io' is NOT related.</p>
+<p class="meta">version 1, commit fbeb062, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="hierarchical-asynchronous-coroutines-and-input-output-hio"><svg class="_slf" onclick="copyUrl('#hierarchical-asynchronous-coroutines-and-input-output-hio')"><use href="#_slf"/></svg>hierarchical asynchronous coroutines and input output <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//hierarchical-asynchronous-coroutines-and-input-output-hio')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p><a href="https://github.com/ioflo/hio">Repo ioflo hio</a></p>
+<p class="meta">version 2, commit 553918f, created 2022-08-02, last modified 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="I" class="letter">I</td>
+<dt id="identifier-system"><svg class="_slf" onclick="copyUrl('#identifier-system')"><use href="#_slf"/></svg>identifier system <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//identifier-system')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Verifiable Credentials (VCs) and the emerging role of the LEI: Verifiable Credentials are digitally signed credentials that are not only tamper-resistant but capable of being verified in decentralized manner. vLEIs are based on the Trust over IP Authentic Chained Data Container (ACDC) specification (based on the Key Event Receipt Infrastructure (KERI) protocol (<a href="http://github.com/WebOfTrust/keri">github.com/WebOfTrust/keri</a>), both Internet Engineering Task Force (IETF) draft specifications).
+Verifiable Credentials are digitally signed credentials that are not only tamper-resistant but capable of being verified in decentralized manner. vLEIs are based on the Trust over IP Authentic Chained Data Container (ACDC) specification (based on the Key Event Receipt Infrastructure (KERI) protocol (<a href="http://github.com/WebOfTrust/keri">github.com/WebOfTrust/keri</a>), both Internet Engineering Task Force (IETF) draft specifications).
+More info on <a href="https://www.gleif.org/en/vlei/introducing-the-verifiable-lei-vlei">GLEIF site</a></p>
+<p class="meta">version 3, commit d662dd7, created 2022-08-02, last modified 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="identity"><svg class="_slf" onclick="copyUrl('#identity')"><use href="#_slf"/></svg>identity <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//identity')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A unique entity. Typically represented with a unique identifier.</p>
+<p class="meta">version 1, commit 4b00519, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="inception-event"><svg class="_slf" onclick="copyUrl('#inception-event')"><use href="#_slf"/></svg>inception event <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//inception-event')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The inception data must include the public key, the identifier derivation from that public key, and may include other configuration data. The identifier derivation may be simply represented by the <code>derivation code</code>. A statement that includes the inception data with attached signature made with the private key comprises a cryptographic commitment to the derivation and configuration of the identifier that may be cryptographically verified by any entity that receives it. <br />
+A KERI inception statement is completely self-contained. No additional infrastructure is needed or more importantly must be trusted in order to verify the derivation and initial configuration (inception) of the identifier. The initial trust basis for the identifier is simply the signed inception statement.<br />
+(<em>SamMSmith</em>)</p>
+<p class="meta">version 1, commit 5eac4d1, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="inconsistency"><svg class="_slf" onclick="copyUrl('#inconsistency')"><use href="#_slf"/></svg>inconsistency <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//inconsistency')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>If a reason, idea, opinion, etc. is inconsistent, different parts of it do not agree, or it does not agree with something else. Data inconsistency occurs when similar data is kept in different formats in more than one file. When this happens, it is important to match the data between files.</p>
+<p class="meta">version 1, commit a874f8f, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="internal-inconsistency"><svg class="_slf" onclick="copyUrl('#internal-inconsistency')"><use href="#_slf"/></svg>internal inconsistency <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//internal-inconsistency')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Internal is used to describe things that exist or happen inside an entity. In our scope of digital identifiers its (in)consistency is considered within the defining data structures and related data stores.</p>
+<p>In KERI we are protected against internal inconsistency by the hash chain datastructure of the <code>KEL</code>, because the only authority that can sign the log is the controller itself.</p>
+<p class="meta">version 1, commit 949793d, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="internet-assigned-numbers-authority-iana"><svg class="_slf" onclick="copyUrl('#internet-assigned-numbers-authority-iana')"><use href="#_slf"/></svg>internet assigned numbers authority <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//internet-assigned-numbers-authority-iana')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p><a href="https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority">Wikipedia</a></p>
+<p class="meta">version 2, commit 2b0ee5f, created 2022-08-02, last modified 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="issuance-and-presentation-exchange-protocol-ipex"><svg class="_slf" onclick="copyUrl('#issuance-and-presentation-exchange-protocol-ipex')"><use href="#_slf"/></svg>issuance and presentation exchange protocol <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//issuance-and-presentation-exchange-protocol-ipex')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>provides a uniform mechanism for the issuance and presentation of ACDCs in a securely attributable manner. A single protocol is able to work for both types of exchanges (issuance and presentation) by recognizing that all exchanges (both issuance and presentation) may be modeled as the disclosure of information by a Discloser to a Disclosee.<br />
+The difference between exchange types is the information disclosed not the mechanism for disclosure.\</p>
+<p class="meta">version 1, commit e774340, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="J" class="letter">J</td>
+<dt id="javascript-object-signing-and-encryption-jose"><svg class="_slf" onclick="copyUrl('#javascript-object-signing-and-encryption-jose')"><use href="#_slf"/></svg>javascript object signing and encryption <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//javascript-object-signing-and-encryption-jose')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Related: <code>JWK</code>, <code>JWT</code>. <a href="https://jose.readthedocs.io/en/latest/">More info</a></p>
+<p class="meta">version 1, commit a2852c4, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="judge"><svg class="_slf" onclick="copyUrl('#judge')"><use href="#_slf"/></svg>judge <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//judge')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>determines current authoritative key set for identifier from the key event receipt logs from a set of witnesses.</p>
+<p class="meta">version 1, commit 94c2cc1, created 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="K" class="letter">K</td>
+<dt id="keri-command-line-interface-kli"><svg class="_slf" onclick="copyUrl('#keri-command-line-interface-kli')"><use href="#_slf"/></svg>keri command line interface <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//keri-command-line-interface-kli')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p><a href="https://docs.google.com/presentation/d/1RIMX7J-cdg8OctoG4JqxPOfqKZsVNodqajtpQ0oFIyE/edit#slide=id.gf2168aef68_0_5">IIW34 presentation slides</a></p>
+<p class="meta">version 1, commit d0f6149, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="keri-improvement-doc-kid"><svg class="_slf" onclick="copyUrl('#keri-improvement-doc-kid')"><use href="#_slf"/></svg>keri improvement doc <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//keri-improvement-doc-kid')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>These docs are modular so teams of contributors can independently work and create PRs of individual KIDs; KIDs answer the question &quot;how we do it&quot;. We add commentary to the indivudual KIDs that elaborate on the why. It has been split from the how to not bother implementors with the why.</p>
+<p class="meta">version 1, commit a3976bf, created 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="keridemlia"><svg class="_slf" onclick="copyUrl('#keridemlia')"><use href="#_slf"/></svg>keridemlia <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//keridemlia')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>It is a contraction of KERI and <a href="https://en.wikipedia.org/wiki/Kademlia">Kademlia</a>. It's the distributed database of Witness IP-addresses based on a Distributed Hash Tabel. It also does the CNAME - stuff that DNS offers for KERI: the mapping between an identifier and it's controller AID stored in the KEL to its current wittness AID and the wittness AID to the IP address.
+(@henkvancann)</p>
+<p class="meta">version 1, commit 4b378fb, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key"><svg class="_slf" onclick="copyUrl('#key')"><use href="#_slf"/></svg>key <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>In our digital scope it's a mechanism for granting or restricting access to something. MAY be used to issue and prove, MAY be used to transfer and control over <em>identity</em> and <em>cryptocurrency</em>. <a href="https://en.wikipedia.org/wiki/Key_(cryptography)">More</a></p>
+<p class="meta">version 1, commit af207f4, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-compromise"><svg class="_slf" onclick="copyUrl('#key-compromise')"><use href="#_slf"/></svg>key compromise <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-compromise')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>More in the security sections of <a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/IdentifierTheory_web.pdf">Universal Identifier Theory</a></p>
+<p class="meta">version 2, commit 5d9380a, created 2022-07-30, last modified 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-event"><svg class="_slf" onclick="copyUrl('#key-event')"><use href="#_slf"/></svg>key event <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-event')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A <em>key event</em> is data structure that consist of a header (Key Event header), a configuration section (Key Event Data spans Header and configuration) and signatures (Key event Message spans Data and signatures)<br />
+(<em>@henkvancann</em>)</p>
+<p><img src="https://github.com/WebOfTrust/keri/blob/main/images/Key-Event.png" alt="" /></p>
+<p class="meta">version 2, commit f42272d, created 2022-07-30, last modified 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-event-log-kel"><svg class="_slf" onclick="copyUrl('#key-event-log-kel')"><use href="#_slf"/></svg>key event log <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-event-log-kel')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>KELs are hash-chained Key Events. These are blockchains in a narrow definition, but not in the sense of ordering (not ordered) or global consensus mechanisms (which is not needed). (SamMSmith)</p>
+<p>A KEL is KERI's VDS: the proof of key state of its identifier.</p>
+<p class="meta">version 1, commit ccebb66, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-event-message"><svg class="_slf" onclick="copyUrl('#key-event-message')"><use href="#_slf"/></svg>key event message <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-event-message')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Message whose body is a key event and whose attachments may include signatures on its body.<br />
+(Sam Smith, IETF-keri)</p>
+<p class="meta">version 1, commit 716d58e, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-event-receipt"><svg class="_slf" onclick="copyUrl('#key-event-receipt')"><use href="#_slf"/></svg>key event receipt <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-event-receipt')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Message whose body references a key event and whose attachments MUST include one or more signatures on that key event.<br />
+(Sam Smith, IETF-keri)</p>
+<p class="meta">version 1, commit d434649, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-event-receipt-infrastructure-keri"><svg class="_slf" onclick="copyUrl('#key-event-receipt-infrastructure-keri')"><use href="#_slf"/></svg>key event receipt infrastructure <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-event-receipt-infrastructure-keri')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A new approach to decentralized identifiers and decentralized key management that promises significant benefits for <code>SSI</code> (self-sovereign identity) and <code>ToIP</code> (Trust over IP) infrastructure.<br />
+(<em>@drummondreed</em>)</p>
+<p>KERI is an identifier system that fixes the internet. It's a fully decentralized permission-less key management architecture. It solves the <code>secure attribution problem</code> to its identifiers and allows portability.<br />
+(<em>@henkvancann</em>)</p>
+<p class="meta">version 3, commit ce6a58d, created 2022-07-09, last modified 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-event-receipt-log-kerl"><svg class="_slf" onclick="copyUrl('#key-event-receipt-log-kerl')"><use href="#_slf"/></svg>key event receipt log <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-event-receipt-log-kerl')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Signed Key Events, keeping track of establishment events. To begin with the inception event and any number of rotation events. We call that the establishment subsequence.
+The Key Event Receipt Logs are built from receipts of events signed by the witnesses of those events (these are called commitments); these are also append-only but not hash-chained.
+(@henkvancann)</p>
+<p><img src="https://github.com/WebOfTrust/keri/blob/main/images/inception-rotation.png" alt="" /></p>
+<p class="meta">version 1, commit 54b9f53, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-management"><svg class="_slf" onclick="copyUrl('#key-management')"><use href="#_slf"/></svg>key management <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-management')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>management of cryptographic keys in a crypto-system. This includes dealing with the generation, exchange, storage, use, crypto-shredding (destruction) and replacement of keys (also <a href="#key-rotation">rotation</a>). It includes cryptographic protocol design, key servers, user procedures, and other relevant protocols.</p>
+<p>Successful key management is critical to the <em>security</em> of a crypto-system. It is the more challenging side of cryptography in a sense that it involves aspects of social engineering such as system policy, user training, organizational and departmental interactions, and coordination between all of these elements, in contrast to pure mathematical practices that can be automated.</p>
+<p>More on <a href="https://en.wikipedia.org/wiki/Key_management">wikipedia</a></p>
+<p class="meta">version 1, commit 6a4e7dd, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-state"><svg class="_slf" onclick="copyUrl('#key-state')"><use href="#_slf"/></svg>key state <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-state')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Includes the set of currently authoritative keypairs for an AID and any other information necessary to secure or establish control authority over an AID.</p>
+<p class="meta">version 1, commit cf875d7, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="key-transparency"><svg class="_slf" onclick="copyUrl('#key-transparency')"><use href="#_slf"/></svg>key transparency <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//key-transparency')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Key Transparency does this by using piece of blockchain technology called a Merkle Tree.<br />
+More on <a href="https://security.stackexchange.com/questions/149125/how-does-key-transparency-work">Stackexchange</a> how key transparency works.<br />
+(<em>@henkvancann</em>)</p>
+<p class="meta">version 1, commit a455b72, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="L" class="letter">L</td>
+<dt id="levels-of-assurance-loa"><svg class="_slf" onclick="copyUrl('#levels-of-assurance-loa')"><use href="#_slf"/></svg>levels of assurance <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//levels-of-assurance-loa')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>KERI has the same LOAs for entropy and trust in human behavior preserving the security of key pairs and preserving their own privacy. It has high LOAs for the cryptographic bindings of controllers and identifiers. Also the validation of witnesses and watchtowers has high a LOA.</p>
+<p class="meta">version 1, commit d0ab569, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="liveness"><svg class="_slf" onclick="copyUrl('#liveness')"><use href="#_slf"/></svg>liveness <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//liveness')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>On <a href="https://en.wikipedia.org/wiki/Liveness">wikipedia</a></p>
+<p class="meta">version 1, commit 14e54b4, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="M" class="letter">M</td>
+<dt id="management-transaction-event-log-management-tel"><svg class="_slf" onclick="copyUrl('#management-transaction-event-log-management-tel')"><use href="#_slf"/></svg>management transaction event log <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//management-transaction-event-log-management-tel')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>will signal the creation of the <em>Virtual Credential Registry (VCR)</em> and track the list of <em>Registrars</em> that will act as <em>Backers</em> for the individual _ transaction event logs (TELs)_ for each virtual credential (VC).</p>
+<p class="meta">version 1, commit 46f6ed2, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="message"><svg class="_slf" onclick="copyUrl('#message')"><use href="#_slf"/></svg>message <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//message')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>serialized data structure event, an actionable message</p>
+<p class="meta">version 1, commit 811f688, created 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="multicodec"><svg class="_slf" onclick="copyUrl('#multicodec')"><use href="#_slf"/></svg>multicodec <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//multicodec')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Is a self-describing multi-format, it wraps other formats with a tiny bit of self-description. A multi-codec identifier is both a variant (variable length integer) and the code identifying data. </p>
+<p>See more at <a href="https://github.com/multiformats/multicodec">GitHub Multi-codec</a></p>
+<p>Multi-codec is an agreed-upon codec table. It is designed for use in binary representations, such as keys or identifiers (i.e CID). It is then used as a prefix to identify the data that follows.</p>
+<p class="meta">version 1, commit 6dccf78, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="N" class="letter">N</td>
+<dt id="namespace"><svg class="_slf" onclick="copyUrl('#namespace')"><use href="#_slf"/></svg>namespace <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//namespace')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>In an identity system, an identifier can be generalized to a <em>namespace</em> to provide a systematic way of organizing identifiers for related resources and their attributes. A namespace is a grouping of symbols or identifiers for a set of related objects. </p>
+<p>A namespace employs some scheme for assigning identifiers to the elements of the namespace. A simple name-spacing scheme uses a prefix or prefixes in a hierarchical fashion to compose identifiers. The following is an example of a namespace scheme for addresses within the USA that uses a hierarchy of prefixes:</p>
+<pre><code class="language-text">state.county.city.zip.street.number. 
+An example element in this namespace may be identified with the following:
+utah.wasatch.heber.84032.main.150S.
+</code></pre>
+<p class="meta">version 1, commit 4e4815b, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="nested-cooperative-delegated-identifiers"><svg class="_slf" onclick="copyUrl('#nested-cooperative-delegated-identifiers')"><use href="#_slf"/></svg>nested cooperative delegated identifiers <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//nested-cooperative-delegated-identifiers')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>More in chapter Nested Delegation Recovery of the <a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf">whitepaper</a></p>
+<p class="meta">version 2, commit 51119c2, created 2022-08-01, last modified 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="non-fungible-token-nft"><svg class="_slf" onclick="copyUrl('#non-fungible-token-nft')"><use href="#_slf"/></svg>non fungible token <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//non-fungible-token-nft')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Sometimes an NFT doesn't only uniquely represent a digital asset. It can be the digital twin of - and is also (hopefully) backed by - a real-life asset. Even in this perspective KERI and ACDC are more emcompassing too, because in the KERI/ACDC case we are dealing with globally portable unique digital twins, not anchored to (read <code>locked in</code>) a blockchain.</p>
+<p class="meta">version 1, commit 601d3d1, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="non-normative"><svg class="_slf" onclick="copyUrl('#non-normative')"><use href="#_slf"/></svg>non normative <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//non-normative')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A theory is called non-normative if it does not do what has described under '<a href="#normative" title="a theory is “normative” if it, in some sense, tells you what you should do - what action you should take.">Normative</a>'. In general, the purpose of non-normative theories is not to give answers, but rather to describe possibilities or predict what might happen as a result of certain actions.<br />
+<a href="https://www.quora.com/What-is-the-difference-between-normative-and-non-normative?share=1">Source</a>.</p>
+<p class="meta">version 1, commit fc566c4, created 2022-08-03, contributors Henk van Cann</p>
+</dd>
+
+<dt id="normative"><svg class="_slf" onclick="copyUrl('#normative')"><use href="#_slf"/></svg>normative <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//normative')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>a theory is “normative” if it, in some sense, tells you what you should do - what action you should take. If it includes a usable procedure for determining the optimal action in a given scenario.<br />
+<a href="https://www.quora.com/What-is-the-difference-between-normative-and-non-normative?share=1">Source</a>.</p>
+<p class="meta">version 1, commit a7665d0, created 2022-08-03, contributors Henk van Cann</p>
+</dd>
+
+<dt id="O" class="letter">O</td>
+<dt id="one-way-functions"><svg class="_slf" onclick="copyUrl('#one-way-functions')"><use href="#_slf"/></svg>one way functions <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//one-way-functions')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>In computer science, a one-way function is a function that is easy to compute on every input, but hard to invert given the image of a random input. Here, &quot;easy&quot; and &quot;hard&quot; are to be understood in the sense of computational complexity theory, specifically the theory of polynomial time problems.<br />
+More on <a href="https://en.wikipedia.org/wiki/One-way_function">Wikipedia</a></p>
+<p class="meta">version 1, commit 5de77ee, created 2022-08-03, contributors Henk van Cann</p>
+</dd>
+
+<dt id="out-of-band-introduction-oobi"><svg class="_slf" onclick="copyUrl('#out-of-band-introduction-oobi')"><use href="#_slf"/></svg>out of band introduction <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//out-of-band-introduction-oobi')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Out-of-band Introductions are discovery and validation of IP resources for <a href="key-event-receipt-infrastructure-(KERI)">KERI</a> autonomic identifiers. <strong>Discovery via URI, trust via KERI.</strong></p>
+<p>The simplest form of a KERI OOBI is a namespaced string, a tuple, a mapping, a structured message, or structured attachment that contains both a KERI AID and a URL. The OOBI associates the URL with the AID. In tuple form this abstractly:</p>
+<pre><code class="language-code">(url, aid)
+</code></pre>
+<p>and concretely</p>
+<pre><code class="language-code">(&quot;http://8.8.5.6:8080/oobi&quot;, &quot;EaU6JR2nmwyZ-i0d8JZAoTNZH3ULvYAfSVPzhzS6b5CM&quot;)
+</code></pre>
+<p class="meta">version 4, commit c555a2e, created 2022-07-09, last modified 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="P" class="letter">P</td>
+<dt id="pre-rotation"><svg class="_slf" onclick="copyUrl('#pre-rotation')"><use href="#_slf"/></svg>pre rotation <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//pre-rotation')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>It is a new invention in KERI. Pre-rotation is a cryptographical commitment (a hash) to the next private key in the rotation-scheme.<br />
+The pre-rotation scheme provides secure verifiable rotation that mitigates successful exploit of a given set of signing private keys from a set of (public, private) key-pairs when that exploit happens sometime after its creation and its first use to issue a self-certifying identifier. In other words, it assumes that the private keys remains private until after issuance of the associated identifier.
+<a href="https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf">Source: chapter Pre-rotation in whitepaper</a></p>
+<p class="meta">version 3, commit 36dbf7d, created 2022-07-30, last modified 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="prefix"><svg class="_slf" onclick="copyUrl('#prefix')"><use href="#_slf"/></svg>prefix <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//prefix')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A prefix that is composed of a basic Base-64 (URL safe) derivation code pre-pended to Base-64 encoding of a basic public digital signing key.<br />
+Including the derivation code in the prefix binds the derivation process along with the public key to the resultant identifier. </p>
+<blockquote>
+<p>An example of the prefix with a one character derivation code and a 32 byte public key encoded into a 44 character Based-64 string follows:
+<code>BDKrJxkcR9m5u1xs33F5pxRJP6T7hJEbhpHrUtlDdhh0</code></p>
+</blockquote>
+<p class="meta">version 1, commit 0cffab5, created 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="proof-of-authority"><svg class="_slf" onclick="copyUrl('#proof-of-authority')"><use href="#_slf"/></svg>proof of authority <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//proof-of-authority')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Proof that somebody or something has certain rights or permissions. It's about <em>data</em>. Whereas <a href="#proof-of-authorship" title="Proof that somebody or something has originally created certain content.">proof of authorship</a> is about <em>data</em> and its original creator.<br />
+A proof-of-authority provides verifiable authorizations or permissions or rights or credentials.</p>
+<p class="meta">version 6, commit 546092d, created 2022-07-09, last modified 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="proof-of-authorship"><svg class="_slf" onclick="copyUrl('#proof-of-authorship')"><use href="#_slf"/></svg>proof of authorship <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//proof-of-authorship')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Proof that somebody or something has originally created certain content. It's about <em>data</em>. Whereas <a href="#proof-of-authority" title="Proof that somebody or something has certain rights or permissions.">proof-of-authority</a> is about <em>rights</em>.</p>
+<p>For example, a <a href="https://en.wikipedia.org/wiki/Signature">signature</a> constitutes direct proof of <a href="https://en.wikipedia.org/wiki/Authorship">authorship</a>; less directly, <a href="https://en.wikipedia.org/wiki/Handwriting_analysis">handwriting analysis</a> may be submitted as proof of authorship of a document.<a href="https://en.wikipedia.org/wiki/Proof_(truth)?wprov=srpw1_0#cite_note-21">[21]</a> <a href="https://en.wikipedia.org/wiki/Secret">Privileged information</a> in a document can serve as proof that the document's author had access to that information; such access might in turn establish the location of the author at certain time, which might then provide the author with an <a href="https://en.wikipedia.org/wiki/Alibi">alibi</a>.<br />
+<a href="https://en.wikipedia.org/wiki/Proof_(truth)">Source</a></p>
+<p class="meta">version 9, commit 5c6569b, created 2022-07-09, last modified 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="public-transaction-event-log-ptel"><svg class="_slf" onclick="copyUrl('#public-transaction-event-log-ptel')"><use href="#_slf"/></svg>public transaction event log <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//public-transaction-event-log-ptel')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The KEL is used to establish control authority over the keys used to commit to the events of the TEL and sign the VC. The events of the TEL are used to establish the issuance or revocation state of the VCs issued by the controller of the identifier represented by the KEL. </p>
+<p><a href="https://github.com/WebOfTrust/ietf-ptel/blob/main/draft-pfeairheller-ptel.md">Source: pfeairheller</a></p>
+<p class="meta">version 1, commit ba28830, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="public-verifiable-credential-registry-pvcr"><svg class="_slf" onclick="copyUrl('#public-verifiable-credential-registry-pvcr')"><use href="#_slf"/></svg>public verifiable credential registry <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//public-verifiable-credential-registry-pvcr')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>is a form of a <em>Verifiable Data Registry</em> that tracks the issuance/revocation state of credentials issued by the controller of the KEL. </p>
+<p>Two types of TELs will be used for this purpose. The first type of TEL is the <em>management TEL</em> and will signal the creation of the Registry and track the list of Registrars that will act as Backers for the individual TELs for each VC. The second type of TEL is the <em>VC TEL</em> which will track the issued or revoked state of each VC and will contain a reference to it's corresponding management TEL.</p>
+<p class="meta">version 1, commit 19c2112, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="Q" class="letter">Q</td>
+<dt id="qualified"><svg class="_slf" onclick="copyUrl('#qualified')"><use href="#_slf"/></svg>qualified <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//qualified')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>When qualified, a cryptographic primitive includes a prepended derivation code (as a proem) that indicates the cryptographic algorithm or suite used for that derivation. This simplifies and compactifies the essential information needed to use that cryptographic primitive. All cryptographic primitives expressed in either text or binary CESR are qualified by definition [<a href="https://weboftrust.github.io/ietf-keri/draft-ssmith-keri.html#CESR-ID">CESR-ID</a>]. Qualification is an essential property of CESR [<a href="https://weboftrust.github.io/ietf-keri/draft-ssmith-keri.html#CESR-ID">CESR-ID</a>].<a href="https://weboftrust.github.io/ietf-keri/draft-ssmith-keri.html#section-2-2.4.1">¶</a><br />
+(Sam Smith, IETF-keri)</p>
+<p class="meta">version 1, commit 801cb66, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="R" class="letter">R</td>
+<dt id="receipt"><svg class="_slf" onclick="copyUrl('#receipt')"><use href="#_slf"/></svg>receipt <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//receipt')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>event message or reference with one or more witness signatures</p>
+<p class="meta">version 1, commit a2e1d10, created 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="receipt-log"><svg class="_slf" onclick="copyUrl('#receipt-log')"><use href="#_slf"/></svg>receipt log <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//receipt-log')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>ordered record of all key event receipts for a given set of witnesses</p>
+<p class="meta">version 1, commit 9030e41, created 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="registrar"><svg class="_slf" onclick="copyUrl('#registrar')"><use href="#_slf"/></svg>registrar <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//registrar')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>identifiers that serve as backers for each TEL under its provenance. This list of Registrars can be rotated with events specific to a certain type of TEL. In this way, a Registrar is analogous to a Backer in KERI KELs and Registrar lists are analogous to Backer lists in KERI KELs.</p>
+<p class="meta">version 1, commit 982e41f, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="S" class="letter">S</td>
+<dt id="salt"><svg class="_slf" onclick="copyUrl('#salt')"><use href="#_slf"/></svg>salt <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//salt')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p><a href="https://en.wikipedia.org/wiki/Salt_(cryptography)">Wikipedia</a></p>
+<p class="meta">version 1, commit 849db8d, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="secure-asset-transfer-protocol-satp"><svg class="_slf" onclick="copyUrl('#secure-asset-transfer-protocol-satp')"><use href="#_slf"/></svg>secure asset transfer protocol <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//secure-asset-transfer-protocol-satp')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>KERI has portable identifiers per definition. KERI identifier are not locked into silos like distributed ledgers. KERI IDs have their own native hash-chained data structures (KEL, KERL and TEL).</p>
+<p class="meta">version 1, commit fa31a13, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="secure-attribution"><svg class="_slf" onclick="copyUrl('#secure-attribution')"><use href="#_slf"/></svg>secure attribution <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//secure-attribution')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>In short: secure attribution is &quot;whodunit?!&quot; in cyberspace.</p>
+<p>Secure attribution is strongly related to <em>making and proving statements</em>. A <a href="#controller" title="The entity that has the ability to make changes to an identity, cryptocurrency or verifiable credential.">controller</a> makes statements to the a <a href="#validator" title="determines current authoritative key set for identifier from at least one key event (receipt) log.">validator</a> or verifier, who in turn validates the statements issued. A <a href="#controller" title="The entity that has the ability to make changes to an identity, cryptocurrency or verifiable credential.">controller</a> &quot;<em>owns</em>&quot; the statement: content and attribution via digital signatures.<br />
+<em>Secure attribution of a statement</em> is a way of proving that <strong>the statement is an authentic statement of the <code>controller</code></strong>. In the context of KERI and ACDC <em>secure</em> means a <strong><code>Validator</code> may cryptographically verify</strong> the statement.</p>
+<p class="meta">version 1, commit 379e7e9, created 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="self-addressing-data-sad"><svg class="_slf" onclick="copyUrl('#self-addressing-data-sad')"><use href="#_slf"/></svg>self addressing data <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//self-addressing-data-sad')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>While all KERI event messages are self-addressing data (SAD), there is a broad class of SADs that are not KERI events but that require signature attachments. ACDC Verifiable credentials fit into this class of SADs. With more complex data structures represented as SADs, such as verifiable credentials, there is a need to provide signature attachments on nested subsets of SADs. <br />
+(Philip Feairheller, ietf-cesr-proof)</p>
+<p class="meta">version 1, commit 40b183a, created 2022-07-31, contributors Henk van Cann</p>
+</dd>
+
+<dt id="self-addressing-identifier-said"><svg class="_slf" onclick="copyUrl('#self-addressing-identifier-said')"><use href="#_slf"/></svg>self addressing identifier <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//self-addressing-identifier-said')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A terse way to describe a SAID and its data is to write an expression that consists of the token <code>SAID</code> followed by a token with field names in canonical order, where the field containing the SAID itsef is marked by the suffix <code>=said</code>. For example, the saidification of a simple <code>ContactInfo</code> data structure might be given as <code>SAID(name, address, phone, email, id=said)</code>.</p>
+<p class="meta">version 7, commit 59f2092, created 2021-08-02, last modified 2021-08-04, contributors Daniel Hardman</p>
+</dd>
+
+<dt id="self-certifying-identifier-sci"><svg class="_slf" onclick="copyUrl('#self-certifying-identifier-sci')"><use href="#_slf"/></svg>self certifying identifier <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//self-certifying-identifier-sci')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A Self-Certifying Identifier cryptographically binds an identifier to a public and private key pair. It is an identifier that can be proven to be the one and only identifier tied to a public key using cryptography alone.</p>
+<p class="meta">version 3, commit 9d47cd0, created 2022-07-09, last modified 2022-07-09, contributors Henk van Cann</p>
+</dd>
+
+<dt id="signed-digest"><svg class="_slf" onclick="copyUrl('#signed-digest')"><use href="#_slf"/></svg>signed digest <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//signed-digest')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>commitment to content, by digitally signing a digest of this content.</p>
+<p class="meta">version 1, commit 9e316a3, created 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="spanning-layer"><svg class="_slf" onclick="copyUrl('#spanning-layer')"><use href="#_slf"/></svg>spanning layer <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//spanning-layer')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>An all encompassing layer horizontal layer in a software architecture. Each trust layer only spans platform specific applications. It bifurcates the internet trust map into domain silos (e.g. twitter.com), because there is no spanning trust layer.</p>
+<p><img src="https://github.com/WebOfTrust/keri/blob/main/images/spanning_layer.png" alt="" /></p>
+<p class="meta">version 2, commit ad6ccf6, created 2022-08-02, last modified 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="T" class="letter">T</td>
+<dt id="text-binary-concatenation-composability"><svg class="_slf" onclick="copyUrl('#text-binary-concatenation-composability')"><use href="#_slf"/></svg>text binary concatenation composability <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//text-binary-concatenation-composability')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>(ietf-cesr-proof)</p>
+<p>{TBW prio2}</p>
+<p class="meta">version 1, commit 29ac603, created 2022-07-31, contributors Henk van Cann</p>
+</dd>
+
+<dt id="transaction-event-log-tel"><svg class="_slf" onclick="copyUrl('#transaction-event-log-tel')"><use href="#_slf"/></svg>transaction event log <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//transaction-event-log-tel')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>An externally anchored transactions log via cryptographic commitments in a KEL.</p>
+<p><img src="https://github.com/WebOfTrust/keri/blob/main/images/TEL-and-KEL.png" alt="" /></p>
+<p>So KERI introduces for the first time many entirely new innovative concepts that are derived from many well known concepts.
+Each new invention is by itself worthy of its own white paper.<br />
+This results in new terminology. Some are entirely new words used in entirely new ways. Others are adaptations of existing
+terms but defined more precisiely for the KERI innovative use.</p>
+<p class="meta">version 1, commit b7f85f2, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="V" class="letter">V</td>
+<dt id="validator"><svg class="_slf" onclick="copyUrl('#validator')"><use href="#_slf"/></svg>validator <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//validator')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>determines current authoritative key set for identifier from at least one key event (receipt) log. Types:</p>
+<ul>
+<li>Validator of any verifiable data structure</li>
+<li>Validator as a node in distributed consensus or participant</li>
+</ul>
+<p>Validator and verifier are synonyms for our purposes.</p>
+<p>A <code>validator</code> in <a href="key-event-receipt-infrastructure-(KERI)">KERI</a> and <a href="authentic-chained-data-container-(ACDC)">ACDC</a> is anybody that wants to establish control-authority over an identifier, created by the controller of the identifier. Validators verify the log, they apply duplicity detection or they leverage somebody else's duplicity detection or apply any other logic so they can say &quot;Yes, these are events I can trust&quot;.</p>
+<p class="meta">version 3, commit ba43818, created 2022-07-09, last modified 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="veracity"><svg class="_slf" onclick="copyUrl('#veracity')"><use href="#_slf"/></svg>veracity <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//veracity')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The quality of being true; contrast <a href="#authenticity" title="The quality of having an objectively verifiable origin; contrast veracity.">authenticity</a>. When a newspaper publishes a story about an event, every faithful reproduction of that story may be <em>authentic</em> — but that does not mean the story was true (has <em>veracity</em>).</p>
+<p class="meta">version 2, commit ce29fc8, created 2021-08-02, last modified 2021-08-02, contributors Daniel Hardman</p>
+</dd>
+
+<dt id="verifiable"><svg class="_slf" onclick="copyUrl('#verifiable')"><use href="#_slf"/></svg>verifiable <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//verifiable')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>A KEL is verifiable means all content in a KEL including the digests and the signatures on that content is verifiably compliant with respect to the KERI protocol. In other words, the KEL is internally consistent and has integrity vis-a-vis its backward and forward chaining digests and authenticity vis-a-vis its non-repudiable signatures. As a verifiable data structure, the KEL satisfies the KERI protocol-defined rules for that verifiability. This includes the cryptographic verification of any digests or signatures on the contents so digested or signed.<br />
+(Sam Smith, IETF-keri)</p>
+<p class="meta">version 1, commit b3fb410, created 2022-07-30, contributors Henk van Cann</p>
+</dd>
+
+<dt id="verifiable-legal-entity-identifier-vlei"><svg class="_slf" onclick="copyUrl('#verifiable-legal-entity-identifier-vlei')"><use href="#_slf"/></svg>verifiable legal entity identifier <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//verifiable-legal-entity-identifier-vlei')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p><a href="https://rapidlei.com/what-is-vlei/">Here</a> at Rapidlei.</p>
+<p class="meta">version 1, commit f84fbc5, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="verifier"><svg class="_slf" onclick="copyUrl('#verifier')"><use href="#_slf"/></svg>verifier <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//verifier')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>cryptographically verifies signature(s) on an event message.</p>
+<p>Notice the subtile difference between <a href="#validator" title="determines current authoritative key set for identifier from at least one key event (receipt) log.">validator</a> and verifier.</p>
+<p class="meta">version 2, commit bd4fd76, created 2022-07-09, last modified 2022-08-01, contributors Henk van Cann</p>
+</dd>
+
+<dt id="virtual-credential-transaction-event-log-vc-tel"><svg class="_slf" onclick="copyUrl('#virtual-credential-transaction-event-log-vc-tel')"><use href="#_slf"/></svg>virtual credential transaction event log <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//virtual-credential-transaction-event-log-vc-tel')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>will track the issued or revoked state of each virtual credential (VC) and will contain a reference to its corresponding <em>management transaction event log (management TEL)</em>.</p>
+<p class="meta">version 1, commit ba11f95, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="W" class="letter">W</td>
+<dt id="well-known-witnesses"><svg class="_slf" onclick="copyUrl('#well-known-witnesses')"><use href="#_slf"/></svg>well known witnesses <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//well-known-witnesses')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Don't use the creation of well-known witnesses in a production environment, but for running tests it's suitable.</p>
+<p class="meta">version 1, commit f51489a, created 2022-08-02, contributors Henk van Cann</p>
+</dd>
+
+<dt id="witness"><svg class="_slf" onclick="copyUrl('#witness')"><use href="#_slf"/></svg>witness <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//witness')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>entity that may receive, verify, and store key events for an identifier. Each witness controls its own identifier used to sign key event messages, controller is a special case of witness.</p>
+<p class="meta">version 1, commit 54b8016, created 2022-08-01, contributors Henk van Cann</p>
+</dd>
+</dl>
+
+</main>
+</body>
+</html>
