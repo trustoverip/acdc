@@ -479,7 +479,7 @@ Source <a href="https://en.wikipedia.org/wiki/Code_name">Wikipedia</a></p>
 </dd>
 
 <dt id="custodial-agent"><svg class="_slf" onclick="copyUrl('#custodial-agent')"><use href="#_slf"/></svg>custodial agent <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//custodial-agent')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>An <a href="#agent" title="A representative for an identity.">agent</a> owned by an individual who has granted <a href="#signing-authority" title="The authority to sign on behalf of the controller of the authoritative key pair.">signing authority</a> to a custodian who is usually also the host of the running agent software. Using <a href="#partial-rotation">partial rotation</a> to facilitate custodial key management the owner of the identifier retains <a href="#rotation-authority">rotational authority</a> and thus the ability to &quot;fire&quot; the custodian at any time without requiring the cooperation of the custodian.</p>
+<dd><p>An <a href="#agent" title="A representative for an identity.">agent</a> owned by an individual who has granted <a href="#signing-authority" title="The authority to sign on behalf of the controller of the authoritative key pair.">signing authority</a> to a custodian who is usually also the host of the running agent software. Using <a href="#partial-rotation">partial rotation</a> to facilitate custodial key management the owner of the identifier retains <a href="#rotation-authority" title="The (exclusive) right to rotate the authoritative key pair and establish changed control authority.">rotational authority</a> and thus the ability to &quot;fire&quot; the custodian at any time without requiring the cooperation of the custodian.</p>
 <p class="meta">version 5, commit 942849a, created 2022-08-23, last modified 2022-08-23, contributors Henk van Cann</p>
 </dd>
 
@@ -1323,6 +1323,11 @@ Source <a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-k
 <p class="meta">version 1, commit a42310d, created 2022-08-05, contributors Henk van Cann</p>
 </dd>
 
+<dt id="rotation-authority"><svg class="_slf" onclick="copyUrl('#rotation-authority')"><use href="#_slf"/></svg>rotation authority <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//rotation-authority')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The (exclusive) right to rotate the authoritative key pair and establish changed control authority.</p>
+<p class="meta">version 1, commit 87cd501, created 2022-08-23, contributors Henk van Cann</p>
+</dd>
+
 <dt id="rotation-event"><svg class="_slf" onclick="copyUrl('#rotation-event')"><use href="#_slf"/></svg>rotation event <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//rotation-event')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
 <dd><p>A type of <a href="#establishment-event" title="An event that establishes control authority.">establishment event</a> that provides the information needed to change the key-state which includes a change to the set of <a href="#authoritative" title="Establishing, imposing or implementing control authority over an identifier.">authoritative</a> keypairs for an <a href="#autonomic-identifier" title="An identifier that is self-certifying and self-sovereign.">AID</a>.<br />
 Source <a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology">Sam Smith</a></p>
@@ -1422,7 +1427,7 @@ Source <a href="https://www.ietf.org/archive/id/draft-ssmith-cesr-02.txt">Samual
 </dd>
 
 <dt id="signing-authority"><svg class="_slf" onclick="copyUrl('#signing-authority')"><use href="#_slf"/></svg>signing authority <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//signing-authority')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>The authority to sign on behalf of the controller of the authoritative key pair. Often in situation where delegation has taken place, e.g. a custodial agent. These are limited rights because <a href="#rotation-authority">rotation authority</a> is not included. </p>
+<dd><p>The authority to sign on behalf of the controller of the authoritative key pair. Often in situation where delegation has taken place, e.g. a custodial agent. These are limited rights because <a href="#rotation-authority" title="The (exclusive) right to rotate the authoritative key pair and establish changed control authority.">rotation authority</a> is not included. </p>
 <p class="meta">version 2, commit 1966974, created 2022-08-23, last modified 2022-08-23, contributors Henk van Cann</p>
 </dd>
 
