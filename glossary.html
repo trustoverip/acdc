@@ -479,13 +479,13 @@ Source <a href="https://en.wikipedia.org/wiki/Code_name">Wikipedia</a></p>
 </dd>
 
 <dt id="custodial-agent"><svg class="_slf" onclick="copyUrl('#custodial-agent')"><use href="#_slf"/></svg>custodial agent <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//custodial-agent')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>An <a href="#agent" title="A representative for an identity.">agent</a> owned by an individual who has granted <a href="#signing-authority" title="The authority to sign on behalf of the controller of the authoritative key pair.">signing authority</a> to a custodian who is usually also the host of the running agent software. Using <a href="#partial-rotation">partial rotation</a> to facilitate custodial key management the owner of the identifier retains <a href="#rotation-authority" title="The (exclusive) right to rotate the authoritative key pair and establish changed control authority.">rotational authority</a> and thus the ability to &quot;fire&quot; the custodian at any time without requiring the cooperation of the custodian.</p>
+<dd><p>An <a href="#agent" title="A representative for an identity.">agent</a> owned by an individual who has granted <a href="#signing-authority" title="The authority to sign on behalf of the controller of the authoritative key pair.">signing authority</a> to a custodian who is usually also the host of the running agent software. Using <a href="#partial-rotation" title="The pre-rotation mechanism supports partial pre-rotation or more exactly partial rotation of pre-rotated keypairs.">partial rotation</a> to facilitate custodial key management the owner of the identifier retains <a href="#rotation-authority" title="The (exclusive) right to rotate the authoritative key pair and establish changed control authority.">rotational authority</a> and thus the ability to &quot;fire&quot; the custodian at any time without requiring the cooperation of the custodian.</p>
 <p class="meta">version 5, commit 942849a, created 2022-08-23, last modified 2022-08-23, contributors Henk van Cann</p>
 </dd>
 
 <dt id="custodial-rotation"><svg class="_slf" onclick="copyUrl('#custodial-rotation')"><use href="#_slf"/></svg>custodial rotation <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//custodial-rotation')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
 <dd><p>Rotation based on control authority that is split between two key sets. The first for signing authority and the second (pre-roateted) for rotation authority the associated thresholds and key list can be structured in such a way that a designated custodial agent can hold signing authority while the original controller can hold exclusive rotation authority.</p>
-<p><a href="#partial-rotation">Partial pre-rotation</a> supports the important use case that of custodial key rotation to authorize a <a href="#custodial-agent" title="An agent owned by an individual who has granted signing authority to a custodian who is usually also the host of the running agent software.">custodial agent</a>.<br />
+<p><a href="#partial-rotation" title="The pre-rotation mechanism supports partial pre-rotation or more exactly partial rotation of pre-rotated keypairs.">Partial pre-rotation</a> supports the important use case that of custodial key rotation to authorize a <a href="#custodial-agent" title="An agent owned by an individual who has granted signing authority to a custodian who is usually also the host of the running agent software.">custodial agent</a>.<br />
 Paraphrased by @henkvancann on the bases of the <a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md">IETF-KERI draft 2022</a> by Samual Smith.</p>
 <p class="meta">version 1, commit 14436cc, created 2022-08-23, contributors Henk van Cann</p>
 </dd>
@@ -1157,6 +1157,17 @@ More on <a href="https://en.wikipedia.org/wiki/One-way_function">Wikipedia</a></
 <dt id="p2p"><svg class="_slf" onclick="copyUrl('#p2p')"><use href="#_slf"/></svg>P2P <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//p2p')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
 <dd><p><a href="#peer-to-peer" title="Peer-to-peer (P2P) computing or networking is a distributed application architecture that partitions tasks or workloads between peers.">Peer to peer</a></p>
 <p class="meta">version 1, commit 3afb3b7, created 2022-08-15, contributors Henk van Cann</p>
+</dd>
+
+<dt id="partial-rotation"><svg class="_slf" onclick="copyUrl('#partial-rotation')"><use href="#_slf"/></svg>partial rotation <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//partial-rotation')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>The pre-rotation mechanism supports partial pre-rotation or <strong>more exactly partial rotation of pre-rotated keypairs</strong>. </p>
+<p>Partial rotation serves two important purposes:</p>
+<ul>
+<li><a href="#reserve-rotation">Reserve rotation</a></li>
+<li><a href="#custodial-rotation" title="Rotation based on control authority that is split between two key sets.">Custodial rotation</a></li>
+</ul>
+<p>Paraphrased by @henkvancann on the bases of the <a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md">IETF-KERI draft 2022</a> by Samual Smith.</p>
+<p class="meta">version 1, commit 2c84e3c, created 2022-08-23, contributors Henk van Cann</p>
 </dd>
 
 <dt id="passcode"><svg class="_slf" onclick="copyUrl('#passcode')"><use href="#_slf"/></svg>passcode <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//passcode')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
