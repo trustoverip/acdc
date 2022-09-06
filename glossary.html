@@ -602,6 +602,11 @@ Paraphrased by @henkvancann on the bases of the <a href="https://github.com/WebO
 <p class="meta">version 1, commit 86087bb, created 2022-08-15, contributors Henk van Cann</p>
 </dd>
 
+<dt id="discloser"><svg class="_slf" onclick="copyUrl('#discloser')"><use href="#_slf"/></svg>discloser <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//discloser')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>An <a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">ACDC</a> in a disclosure is disclosed by the Discloser.</p>
+<p class="meta">version 1, commit 2d9a4df, created 2022-09-06, contributors Henk van Cann</p>
+</dd>
+
 <dt id="distributed-hash-table"><svg class="_slf" onclick="copyUrl('#distributed-hash-table')"><use href="#_slf"/></svg>distributed hash table <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//distributed-hash-table')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
 <dd><p>It is a distributed system that provides a lookup service similar to a hash table: key-value pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key. The main advantage of a DHT is that nodes can be added or removed with minimum work around re-distributing keys. Keys are unique identifiers which map to particular values, which in turn can be anything from addresses, to documents, to arbitrary data.<br />
 (Source: <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">Wikipedia</a>)</p>
@@ -831,7 +836,7 @@ Source: Philip Feairheller.</p>
 </dd>
 
 <dt id="issuance-exchange"><svg class="_slf" onclick="copyUrl('#issuance-exchange')"><use href="#_slf"/></svg>issuance exchange <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//issuance-exchange')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>A special case of a <a href="#presentation-exchange" title="An exchange that provides disclosure of one or more ACDCs between a Discloser and a Disclosee.">presentation exchange</a> where the <a href="#discloser">Discloser</a> is the <a href="#issuer" title="An ACDC is issued by the Issuer.">Issuer</a> of the origin (Primary) ACDC of the <a href="#directed-acyclic-graph" title="From Wikipedia (source):">DAG</a> formed by the set of chained <a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">ACDC</a>s so disclosed.</p>
+<dd><p>A special case of a <a href="#presentation-exchange" title="An exchange that provides disclosure of one or more ACDCs between a Discloser and a Disclosee.">presentation exchange</a> where the <a href="#discloser" title="An ACDC in a disclosure is disclosed by the Discloser.">Discloser</a> is the <a href="#issuer" title="An ACDC is issued by the Issuer.">Issuer</a> of the origin (Primary) ACDC of the <a href="#directed-acyclic-graph" title="From Wikipedia (source):">DAG</a> formed by the set of chained <a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">ACDC</a>s so disclosed.</p>
 <p>In an issuance exchange, when the origin ACDC has an <a href="#issues">Issuee</a>, the <a href="#disclosee">Disclosee</a> MAY also be the origin ACDC's Issuee.</p>
 <p class="meta">version 1, commit 275b6e1, created 2022-09-06, contributors Henk van Cann</p>
 </dd>
@@ -1268,7 +1273,7 @@ Including the derivation code in the prefix binds the derivation process along w
 
 <dt id="presentation-exchange"><svg class="_slf" onclick="copyUrl('#presentation-exchange')"><use href="#_slf"/></svg>presentation exchange <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//presentation-exchange')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
 <dd><p>An exchange that provides disclosure of one or more <a href="#authentic-chained-data-container" title="In brief, an ACDC or ADC proves digital data consistency and authenticity in one go.">ACDC</a>s between a Discloser and a Disclosee.</p>
-<p>A presentation exchange is the process by which <a href="#authentication">authenticatable</a> information may be exchanged between two parties, namely, the <a href="#discloser">Discloser</a> and <a href="#disclosee">Disclosee</a>.</p>
+<p>A presentation exchange is the process by which <a href="#authentication">authenticatable</a> information may be exchanged between two parties, namely, the <a href="#discloser" title="An ACDC in a disclosure is disclosed by the Discloser.">Discloser</a> and <a href="#disclosee">Disclosee</a>.</p>
 <p class="meta">version 1, commit 0cd8312, created 2022-09-06, contributors Henk van Cann</p>
 </dd>
 
