@@ -1892,7 +1892,7 @@ More on <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol">so
 <li>evaluate</li>
 <li><a href="#verify">verify</a></li>
 </ul>
-<p>Conversely, <a href="#validator" title="determines current authoritative key set for identifier from at least one key event (receipt) log.">validator</a> and <a href="#verifier" title="cryptographically verifies signature(s) on an event message.">verifier</a> have been clearly outlined in the WebofTrust vocabulary.</p>
+<p>Conversely, <a href="#validator" title="determines current authoritative key set for identifier from at least one key event (receipt) log.">validator</a> and <a href="#verifier" title="the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates).">verifier</a> have been clearly outlined in the WebofTrust vocabulary.</p>
 <p class="meta">version 3, commit cbb6792, created 2022-09-21, last modified 2022-09-21, contributors Henk van Cann</p>
 </dd>
 
@@ -1902,7 +1902,7 @@ More on <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol">so
 <li>Validator of any verifiable data structure</li>
 <li>Validator as a node in distributed consensus or participant</li>
 </ul>
-<p>Validator and <a href="#verifier" title="cryptographically verifies signature(s) on an event message.">verifier</a> are close to synonyms for our purposes.</p>
+<p>Validator and <a href="#verifier" title="the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates).">verifier</a> are close to synonyms for our purposes.</p>
 <p>A <code>validator</code> in <a href="key-event-receipt-infrastructure-(KERI)">KERI</a> and <a href="authentic-chained-data-container-(ACDC)">ACDC</a> is anybody that wants to establish control-authority over an identifier, created by the controller of the identifier. Validators verify the log, they apply duplicity detection or they leverage somebody else's duplicity detection or apply any other logic so they can say &quot;Yes, these are events I can trust&quot;.</p>
 <p class="meta">version 7, commit 38245ef, created 2022-07-09, last modified 2022-09-30, contributors Henk van Cann</p>
 </dd>
@@ -1949,9 +1949,9 @@ Source <a href="https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-k
 </dd>
 
 <dt id="verifier"><svg class="_slf" onclick="copyUrl('#verifier')"><use href="#_slf"/></svg>verifier <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//verifier')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>cryptographically verifies signature(s) on an event message.</p>
+<dd><p>the entity that (cryptographically) verifies data received from peers (check structure, signatures, dates). More narrowly defined for the KERI suite: cryptographically verifies signature(s) on an event message.</p>
 <p>Notice the subtile difference between <a href="#validator" title="determines current authoritative key set for identifier from at least one key event (receipt) log.">validator</a> and verifier.</p>
-<p class="meta">version 5, commit f09c117, created 2022-07-09, last modified 2022-09-21, contributors Henk van Cann</p>
+<p class="meta">version 6, commit cccc134, created 2022-07-09, last modified 2022-09-30, contributors Henk van Cann</p>
 </dd>
 
 <dt id="verify"><svg class="_slf" onclick="copyUrl('#verify')"><use href="#_slf"/></svg>verify <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//verify')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
