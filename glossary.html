@@ -1238,8 +1238,10 @@ Paraphrased by @henkvancann from Wikipedia <a href="https://en.wikipedia.org/wik
 
 <dt id="N" class="letter">N</td>
 <dt id="naive-conversion"><svg class="_slf" onclick="copyUrl('#naive-conversion')"><use href="#_slf"/></svg>naive conversion <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//naive-conversion')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>a text to binary conversion or vice versa that doesn't anticipate on either <a href="#composability">composability</a> and / or on the <a href="#concatenation">concatenation</a> capability of the result of such an operation.</p>
-<p class="meta">version 1, commit f97b029, created 2022-09-30, contributors Henk van Cann</p>
+<dd><p>is non-CESR Base64 conversion. And also how people are used to using the Base64 encode and decode.  Without <a href="#pre-pad" title="the action and / or result of prepending a string with leading pad characters to align to a certain length in bits or bytes.">pre-pad</a>ding etc all the stuff CESR does to ensure it aligns on 24 bit boundaries, so <a href="#CESR">CESR</a> never uses the '=' pad character. But naive <a href="#Base64">Base64</a> will pad if the length is not 24 bit aligned.<br />
+Source: Samuel Smith in <a href="https://github.com/WebOfTrust/ietf-cesr/issues/34">issue 34</a></p>
+<p>Naive conversion is a text to binary conversion or vice versa that doesn't anticipate on either <a href="#composability">composability</a> and / or on the <a href="#concatenation">concatenation</a> capability of the result of such an operation.</p>
+<p class="meta">version 2, commit ee0c6a5, created 2022-09-30, last modified 2022-10-02, contributors Henk van Cann</p>
 </dd>
 
 <dt id="namespace"><svg class="_slf" onclick="copyUrl('#namespace')"><use href="#_slf"/></svg>namespace <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//namespace')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
