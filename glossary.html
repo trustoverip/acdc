@@ -1751,6 +1751,12 @@ Paraphrased by @henkvancann, sources <a href="https://essif-lab.github.io/framew
 <p class="meta">version 1, commit 9e316a3, created 2022-08-01, contributors Henk van Cann</p>
 </dd>
 
+<dt id="signify"><svg class="_slf" onclick="copyUrl('#signify')"><use href="#_slf"/></svg>signify <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//signify')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>Signify is a web client <a href="#key-event" title="Concretely, the serialized data structure of an entry in the key event log for an AID.">(key) event</a> signing - and key pair creation app that minimizes the use of <a href="#KERI">KERI</a> on the client.</p>
+<p>The main reason is that we want to minimize what needs to be put in the client or the cloud. Most proofs should be cryptographically verifiable and it should not be able to be repudiated, and this happens when the signatures come straight from the controller.</p>
+<p class="meta">version 1, commit f6aa190, created 2022-10-04, contributors Henk van Cann</p>
+</dd>
+
 <dt id="signing-authority"><svg class="_slf" onclick="copyUrl('#signing-authority')"><use href="#_slf"/></svg>signing authority <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//signing-authority')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
 <dd><p>The authority to sign on behalf of the controller of the authoritative key pair. Often in situation where delegation has taken place, e.g. a custodial agent. These are limited rights because <a href="#rotation-authority" title="The (exclusive) right to rotate the authoritative key pair and establish changed control authority.">rotation authority</a> is not included. </p>
 <p class="meta">version 2, commit 1966974, created 2022-08-23, last modified 2022-08-23, contributors Henk van Cann</p>
