@@ -422,6 +422,12 @@ Also see <a href="#agent" title="A representative for an identity.">Agent</a>.</
 <p class="meta">version 2, commit 125f8fb, created 2022-10-02, last modified 2022-10-02, contributors Henk van Cann</p>
 </dd>
 
+<dt id="cold-start-stream-parsing"><svg class="_slf" onclick="copyUrl('#cold-start-stream-parsing')"><use href="#_slf"/></svg>cold start stream parsing <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//cold-start-stream-parsing')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
+<dd><p>After a reboot (or cold start), a stream processor looks for framing information to know how to parse groups of elements in the stream. </p>
+<p>If that framing information is ambiguous then the parser may become confused and require yet another cold start. While processing a given stream a parser may become confused especially if a portion of the stream is malformed in some way. This usually requires flushing the stream and forcing a cold start to resynchronize the parser to subsequent stream elements. </p>
+<p class="meta">version 1, commit e0ef4f2, created 2022-10-11, contributors Henk van Cann</p>
+</dd>
+
 <dt id="collective-signature"><svg class="_slf" onclick="copyUrl('#collective-signature')"><use href="#_slf"/></svg>collective signature <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//collective-signature')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
 <dd><p>a group signature scheme, that (i) is shared by a set of signing groups and (ii) combined collective signature shared by several signing groups and several individual signers. The protocol of the first type is constructed and described in detail. It is possible to modify the described protocol which allows transforming the protocol of the first type into the protocol of the second type. The proposed collective signature protocols have significant merits, one of which is connected with possibility of their practical using on the base of the existing public key infrastructures.<br />
 <a href="https://link.springer.com/chapter/10.1007/978-981-10-7512-4_20">Source</a></p>
