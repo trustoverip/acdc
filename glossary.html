@@ -443,8 +443,8 @@ Another example is <a href="https://en.wikipedia.org/wiki/Naming_collision">name
 </dd>
 
 <dt id="compact-variant"><svg class="_slf" onclick="copyUrl('#compact-variant')"><use href="#_slf"/></svg>compact variant <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//compact-variant')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>an <a href="#issuer" title="An ACDC is issued by the Issuer.">Issuer</a> commitment via a signature to any variant of ACDC (compact, full, etc) makes a cryptographic commitment to the top-level section fields shared by all variants of that ACDC because the value of a <a href="#top-level-section" title="The fields of an ACDC in compact variant.">top level section field</a> is either the <a href="#SAD">SAD</a> or the <a href="#SAID">SAID</a> of the SAD of the associated section.</p>
-<p class="meta">version 3, commit 4d39b84, created 2022-09-06, last modified 2022-09-06, contributors Henk van Cann</p>
+<dd><p>Either a <a href="#most-compact" title="An ACDC that has only the SAIDs signed on board to verify.">most compact</a> version of an ACDC or the <a href="#fully-compact" title="The most compact form of an ACDC.">fully compact</a> version of an ACDC. An <a href="#issuer" title="An ACDC is issued by the Issuer.">Issuer</a> commitment via a signature to any variant of ACDC (compact, full, etc) makes a cryptographic commitment to the top-level section fields shared by all variants of that ACDC because the value of a <a href="#top-level-section" title="The fields of an ACDC in compact variant.">top level section field</a> is either the <a href="#SAD">SAD</a> or the <a href="#SAID">SAID</a> of the SAD of the associated section.</p>
+<p class="meta">version 4, commit edae588, created 2022-09-06, last modified 2022-10-11, contributors Henk van Cann</p>
 </dd>
 
 <dt id="composability"><svg class="_slf" onclick="copyUrl('#composability')"><use href="#_slf"/></svg>composability <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//composability')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
@@ -803,9 +803,9 @@ This form is the cornerstone of the graduated disclosure mechanism in ACDCs.</p>
 </dd>
 
 <dt id="fully-expanded"><svg class="_slf" onclick="copyUrl('#fully-expanded')"><use href="#_slf"/></svg>fully expanded <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//fully-expanded')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>The most user-friendly version of the ACDC credential. It doesn't need to be signed. However, it's still part
-of the graduated disclosure objective.</p>
-<p class="meta">version 3, commit ab3313f, created 2022-10-11, last modified 2022-10-11, contributors Henk van Cann</p>
+<dd><p>The most user-friendly version of the ACDC credential. It doesn't need to be signed and typically is not signed since the most compact version which is signed can be computed from this form and then the signature can be looked up in the transaction event log (TEL) of the ACDC in question. </p>
+<p>Regarding the graduated disclosure objective this form is the one with the highest amount of disclosure for a given node of an ACDC graph.</p>
+<p class="meta">version 4, commit f89647c, created 2022-10-11, last modified 2022-10-11, contributors Kent Bull - Henk van Cann</p>
 </dd>
 
 <dt id="G" class="letter">G</td>
@@ -847,7 +847,7 @@ More in <a href="https://en.wikipedia.org/wiki/Governance_framework">source</a> 
 </dd>
 
 <dt id="graduated-disclosure"><svg class="_slf" onclick="copyUrl('#graduated-disclosure')"><use href="#_slf"/></svg>graduated disclosure <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//graduated-disclosure')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>disclosure performed by a presentation exchange that has cross-variant (see <a href="#compact-variant" title="an Issuer commitment via a signature to any variant of ACDC (compact, full, etc) makes a cryptographic commitment to the top-level section fields shared by all variants of that ACDC because the value of a top level section field is either the SAD or the SAID of the SAD of the associated section.">compact variant</a>) Issuer commitment verifiability as an essential property. It supports graduated disclosure by the <a href="#disclosee">Disclosee</a> of any or all variants wether it be full, compact, metadata, partial, selective, bulk issued, or contractually protected.<br />
+<dd><p>disclosure performed by a presentation exchange that has cross-variant (see <a href="#compact-variant" title="Either a most compact version of an ACDC or the fully compact version of an ACDC.">compact variant</a>) Issuer commitment verifiability as an essential property. It supports graduated disclosure by the <a href="#disclosee">Disclosee</a> of any or all variants wether it be full, compact, metadata, partial, selective, bulk issued, or contractually protected.<br />
 Paraphrased by @henkvancann based on <a href="https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md#discussion">source</a></p>
 <p class="meta">version 4, commit 22340af, created 2022-09-06, last modified 2022-09-06, contributors Henk van Cann</p>
 </dd>
@@ -1875,7 +1875,7 @@ Source <a href="https://cryptoapis.io/blog/78-what-is-the-threshold-signature-sc
 </dd>
 
 <dt id="top-level-section"><svg class="_slf" onclick="copyUrl('#top-level-section')"><use href="#_slf"/></svg>top level section <svg class="_xl" onclick="goto('https://github.com/trustoverip/acdc/wiki//top-level-section')"><use href="#_xl"/></svg><span class="tag">#acdc</span></dt>
-<dd><p>The fields of an ACDC in <a href="#compact-variant" title="an Issuer commitment via a signature to any variant of ACDC (compact, full, etc) makes a cryptographic commitment to the top-level section fields shared by all variants of that ACDC because the value of a top level section field is either the SAD or the SAID of the SAD of the associated section.">compact variant</a>. The value of a top level section field is either the SAD or the SAID of the SAD of the associated section.
+<dd><p>The fields of an ACDC in <a href="#compact-variant" title="Either a most compact version of an ACDC or the fully compact version of an ACDC.">compact variant</a>. The value of a top level section field is either the SAD or the SAID of the SAD of the associated section.
 An Issuer commitment via a signature to any variant of ACDC (compact, full, etc) makes a cryptographic commitment to the top-level section fields shared by all variants of that ACDC.<br />
 Paraphrased by @henkvancann based on <a href="https://github.com/WebOfTrust/ietf-ipex/blob/main/draft-ssmith-ipex.md#example-most-compact-variant">source</a>.</p>
 <p class="meta">version 3, commit 0d47122, created 2022-09-06, last modified 2022-09-06, contributors Henk van Cann</p>
